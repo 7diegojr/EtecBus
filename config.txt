@@ -1,0 +1,8 @@
+git config --global user.name 7diegojr
+git config --global user.email dfsntsjunior@gmail.com
+
+npx create-expo-app@latest EtecBus --template blank
+
+npx expo install expo-location react-native-webview
+
+npx expo start --tunnel
